@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.4.0",
     "next": "11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/react": "17.0.11",
     "eslint": "7.29.0",
-    "eslint-config-next": "11.0.0"
+    "eslint-config-next": "11.0.0",
+    "typescript": "4.3.4"
   }
 }
